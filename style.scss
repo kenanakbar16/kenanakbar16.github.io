@@ -1,0 +1,866 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    
+    
+    
+}
+.section_own{
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        
+        .logo{
+            font-size: 40px;
+            cursor: pointer;
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 30px;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        } 
+        .icons{
+            ul{
+                display: flex;
+                gap: 30px;
+                margin-left: -50px;
+                .bars{
+                    display: none;
+                }
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }    
+    }
+
+}
+
+.section_two{
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        .box_input{
+            h1{
+                color: #000958ff;
+                font-size: 40px;
+            }
+            p{
+                color: #000958ff;
+                font-size: 20px;
+            }
+
+        .search_icon_box{   
+            display: flex;
+
+             .search_box{
+                position: relative;
+                  #search{
+                        width: 360px;   
+                        height: 45px;
+                        border: none;
+                        border-radius: 30px;
+                        margin-top: 50px;
+                }
+                }
+        
+            .icon_box{
+                position: absolute;
+                
+                i{
+                    padding-top: 60px;
+                    padding-left: 320px;
+                    font-size: 20px;
+                    
+        
+                }
+            }
+            button{
+                height: 45px;
+                width: 120px;
+                background-color: rgb(255, 91, 46);
+                color: white;
+                border-radius: 40px;
+                border: none;
+                margin-left: 10px;
+                margin-top: 50px;
+                font-size: 20px;
+            }
+        }
+            
+           
+        }
+            .box_img{
+        
+                width: 250px;
+                height: 360px;
+                margin-left: 70px;
+                border-radius: 120px;
+                background-image: url(imgj.jpeg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+             
+        }
+  
+            }
+      
+        }
+    
+
+    .section_three{
+        margin-top: 140px;
+            h2{
+                text-align: center;
+            }
+                
+                 .container{
+                     display: flex;
+                     flex-wrap: wrap;
+                     align-items: center;
+                     justify-content: center;
+                     gap: 80px;
+                    .container_box{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        h5{
+                            text-align: center;
+                         }
+                        .jpg{
+                            height: 100px;
+                            width: 100px;
+                            
+                            
+                            
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                         }     
+                    
+                         }
+
+            }
+
+        }
+        .section_four{
+            margin-top: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container{
+                display: flex;
+                .container_1{
+                .head_text{
+                    display: flex;
+                    align-items: center;
+                    width: 200px;
+                    height: 40px;
+                    border: 1px solid #ccc;
+                    border-radius: 10px;
+                    
+                    i{
+                       padding: 0px 0px 0px 20px ;
+                    }
+                        h4{
+                           padding-left: 10px;
+                        }
+       
+                }
+                .offer_card_dog{
+                    width: 200px;
+                    height: 230px;
+                    background-color: #CAEDFF;
+                    border-radius: 10px;
+                
+                    h4{
+                        text-align: center;
+                        padding-top: 10px;
+                    }
+                        p{
+                            text-align: center;
+                        }
+                            img{
+                                width: 85px;
+                                height: 85px;
+                                border-radius: 60px;
+                                margin-left: 55px;
+                                
+                                
+                                } 
+                                button{
+                                    width: 170px;
+                                    height: 35px;
+                                    background-color: #31C6D4;
+                                    color: white;
+                                    border-radius: 40px;
+                                    border: none;
+                                    margin-left: 15px;
+                                }
+                            }     
+                                .offer_card_cat{
+                                    width: 200px;
+                                    height: 230px;
+                                    background-color: #ffcae3;
+                                    border-radius: 10px;
+                                
+                                    h4{
+                                        text-align: center;
+                                        padding-top: 10px;
+                                    }
+                                        p{
+                                            text-align: center;
+                                        }
+                                            img{
+                                                width: 85px;
+                                                height: 85px;
+                                                border-radius: 60px;
+                                                margin-left: 55px;
+                                                
+                                                } 
+                                                button{
+                                                    width: 170px;
+                                                    height: 35px;
+                                                    background-color: #d4319e;
+                                                    color: white;
+                                                    border-radius: 40px;
+                                                    border: none;
+                                                    margin-left: 15px;
+                                                }
+                }        
+                
+                 }
+                    .container_2{
+                      .head_text{
+                            display: flex;
+                            align-items: center;
+                            width: 600px;
+                            height: 40px;
+                            border: 1px solid #ccc;
+                            border-radius: 10px;
+                            margin-left: 150px;
+                            
+                            i{
+                               padding: 0px 0px 0px 20px ;
+                            }
+                                h4{
+                                   padding-left: 10px;
+                                   
+                                }
+                                    .icons{
+                                        margin-left: 200px;
+                                    }
+                        }
+
+                        .container_price_box{
+                            display: flex;
+                            flex-wrap: wrap;
+                            
+                        
+                            
+
+                            .price_1{
+                                width: 180px;
+                                height: 120px;
+                                margin: 20px -40px 0px 50px;
+                                    img{
+                                        width: 100%;
+                                        object-fit: cover;
+                                        height: 100%;
+                                        border-radius: 10px 10px 0px 0px;
+                                       
+                                    }
+                                        .jpg_bio{
+                                            width: 180px;
+                                            height: 50px;
+                                            background-color: #CAEDFF;
+                                            margin: -26px 0px 0px 0px;
+                                            border-radius: 0px 0px 10px 10px;
+                                            p{
+                                                padding: 15px 0px 0px 8px;
+                                                font-size: small;
+                                                b{
+                                                    color: red;
+                                                }
+                                            }
+                                                
+                                        }       
+                                        
+
+                                
+                            }
+                            .price_2{
+                                width: 180px;
+                                height: 120px;
+                                margin: 20px -40px 0px 50px;
+
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        border-radius: 10px 10px 0px 0px;
+                                        object-fit: cover;
+                                        
+                                    }
+                                        .jpg_bio{
+                                            width: 180px;
+                                            height: 50px;
+                                            background-color: #CAEDFF;
+                                            margin: -26px 0px 0px 0px;
+                                            border-radius: 0px 0px 10px 10px;
+                                            p{
+                                                padding: 15px 0px 0px 8px;
+                                                font-size: small;
+                                                b{
+                                                    color: red;
+                                                }
+                                            }
+                                                
+                                        }
+                        }
+                        .price_3{
+                            width: 180px;
+                            height: 120px;
+                            margin: 20px -40px 0px 50px;
+
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 10px 10px 0px 0px;
+                                    object-fit: cover;
+                                }
+                                    .jpg_bio{
+                                        width: 180px;
+                                        height: 50px;
+                                        background-color: #CAEDFF;
+                                        margin: -26px 0px 0px 0px;
+                                        border-radius: 0px 0px 10px 10px;
+                                        p{
+                                            padding: 15px 0px 0px 8px;
+                                            font-size: small;
+                                            b{
+                                                color: red;
+                                            }
+                                        }
+                                            
+                                    }
+                    }
+                 
+                    }
+                            .container_price_box{
+                                margin-top: 40px;
+
+                                .price_4{
+                                    width: 180px;
+                                    height: 120px;
+                                    margin: 40px -40px 0px 50px;
+
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 10px 10px 0px 0px;
+                                            object-fit: cover;
+                                        }
+                                            .jpg_bio{
+                                                width: 180px;
+                                                height: 50px;
+                                                background-color: #CAEDFF;
+                                                margin: -26px 0px 0px 0px;
+                                                border-radius: 0px 0px 10px 10px;
+                                                p{
+                                                    padding: 15px 0px 0px 8px;
+                                                    font-size: small;
+                                                    b{
+                                                        color: red;
+                                                    }
+                                                }
+                                                    
+                                            }
+                                }
+                                .price_5{
+                                width: 180px;
+                                height: 120px;
+                                margin: 40px -40px 0px 50px;
+
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        border-radius: 10px 10px 0px 0px;
+                                        object-fit: cover;
+                                    }
+                                        .jpg_bio{
+                                            width: 180px;
+                                            height: 50px;
+                                            background-color: #CAEDFF;
+                                            margin: -26px 0px 0px 0px;
+                                            border-radius: 0px 0px 10px 10px;
+                                            p{
+                                                padding: 15px 0px 0px 8px;
+                                                font-size: small;
+                                                b{
+                                                    color: red;
+                                                }
+                                            }
+                                                
+                                        }
+                                }
+                                .price_6{
+                                width: 180px;
+                                height: 120px;
+                                margin: 40px -40px 0px 50px;
+
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 10px 10px 0px 0px;
+                                    object-fit: cover;
+                                }
+                                    .jpg_bio{
+                                        width: 180px;
+                                        height: 50px;
+                                        background-color: #CAEDFF;
+                                        margin: -26px 0px 0px 0px;
+                                        border-radius: 0px 0px 10px 10px;
+                                        p{
+                                            padding: 15px 0px 0px 8px;
+                                            font-size: small;
+                                            b{
+                                                color: red;
+                                            }
+                                        }
+                                            
+                                    }
+                                }
+                            }
+            }
+        }
+    }
+
+
+
+                .section_five{
+                   
+                    .container{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 50px;
+                        background-color: bisque;
+                        height: 300px;
+                        gap: 60px;
+                        flex-wrap: wrap;
+                        .box1{
+                            width: 140px;
+                            height: 100px;
+                        
+                        }
+                        .box2{
+                            width: 140px;
+                            height: 100px;
+                        }
+                        .box3{
+                            width: 140px;
+                            height: 100px;
+                        }
+                        .box4{
+                            width: 140px;
+                            height: 100px;
+                            margin-top: 50px;
+                            i{
+                                font-size: 30px;
+                                cursor: pointer;
+                            }   
+                            
+                        }
+                    }
+                }
+
+
+
+
+                @media only screen and (min-width: 768px) and (max-width: 992px){
+                    .section_own{
+                        
+                        .container{
+                            width: 100%;
+                            height: auto;
+                            max-width: 1200px;
+                        }
+         
+                    }
+          
+                }
+                @media only screen and (min-width:600px) and (max-width: 768px){
+                    .section_two{
+                        .container{
+                          width: 100%;
+                          height: auto;
+                          max-width: 1200px;
+                          .box_input{
+                            h1{
+                                
+                                font-size: 20px;
+                                padding: 0 3%;
+                                width: auto;
+                            }
+                            p{
+                                font-size: 10px;
+                                padding: 0 3%;
+                            }
+                
+                        .search_icon_box{   
+                            display: flex;
+                
+                             .search_box{
+                                position: relative;
+                                  #search{
+                                        width: 300px;   
+                                        height: 45px;
+                                        padding: 0 3%;
+                                }
+                                }
+                        
+                            .icon_box{
+                                position: absolute;
+                                
+                                i{
+                                    padding-top: 60px;
+                                    padding-left: 260px;
+                                    font-size: 20px;
+                                    
+                        
+                                }
+                            }
+                            button{
+                                display: none;
+                            }
+                        }
+                            
+                           
+                        }
+                          .box_img{
+        
+                            width: 200px;
+                            height: 300px;
+                            margin-left: 70px;
+                            border-radius: 120px;
+                            background-image: url(imgj.jpeg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            margin: 0px;
+                  
+                        }        
+                            
+                    }    
+                          
+                }
+                        
+            }
+
+
+
+                .section_four{
+                    .container{
+                        
+                        .container_1{
+                            margin-right: -60px;
+                        .head_text{
+                            display: flex;
+                            align-items: center;
+                            width: 200px;
+                            height: 40px;
+                            border: 1px solid #ccc;
+                            border-radius: 10px;
+                            
+                            i{
+                               padding: 0px 0px 0px 20px ;
+                            }
+                                h4{
+                                   padding-left: 10px;
+                                }
+               
+                        }
+                      
+                        
+                         }
+                            .container_2{
+                                margin-left: 25px;
+                                .head_text{
+                                    display: flex;
+                                    align-items: center;
+                                    width: 350px;
+                                    height: 40px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 10px;
+                                    margin-left: 50px;
+                                    
+                                    i{
+                                       padding: 0px 0px 0px 20px ;
+                                    }
+                                        h4{
+                                           padding-left: 10px;
+                                           
+                                        }
+                                            .icons{
+                                                margin-left: 200px;
+                                            }
+                                }
+        
+                                
+                    }
+                }
+            }
+
+        @media only screen and (min-width: 200px) and (max-width: 600px){
+            .section_own{
+                .container{
+                    .logo{
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
+                                 nav{
+                                    position: absolute;
+                                    top: 10%;
+                                    right: 100px;
+                                    width: 150px;
+                                    height: 30vh;
+                                    background-color: #727172;
+                                    opacity: 0.6;
+                                    display: flex;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    padding: 50px 20px;
+                                    transition: all .55s ease;
+                                    nav.open{
+                                        right: 0;
+                                    }
+                        ul{
+                            display: block;
+                            margin-left: 0;
+                            margin: 0;
+                            
+                            
+                            
+                            li{
+                                list-style: none;
+                                line-height: 3em;
+                                
+                                
+                                a{
+                                    color: white;
+                                   
+                                }
+                            }
+                        }
+                    } 
+                    .icons{
+                        margin-right: 100px;
+                        ul{
+                            display: flex;
+                            gap: 20px;
+                            
+                            .baria{
+                                display: block;
+
+                                
+                            }
+                            li{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color: black;
+                                
+                                }
+                            }
+                        }
+                    }    
+                }
+            
+            }
+            
+
+
+            .section_two{
+                .container{
+                  width: 100%;
+                  height: auto;
+                  max-width: 1200px;
+                  .box_input{
+                    h1{
+                        
+                        font-size: 20px;
+                        padding: 0 3%;
+                        width: auto;
+                      
+                    }
+                    p{
+                        font-size: 10px;
+                        padding: 0 3%;
+                    }
+        
+                .search_icon_box{   
+                    display: flex;
+        
+                     .search_box{
+                        position: relative;
+                          #search{
+                                width: 300px;   
+                                height: 45px;
+                                padding: 0 3%;
+                        }
+                        }
+                
+                    .icon_box{
+                        position: absolute;
+                        
+                        i{
+                            padding-top: 60px;
+                            padding-left: 260px;
+                            font-size: 20px;
+                            
+                
+                        }
+                    }
+                    button{
+                        display: none;
+                    }
+                }
+                    
+                   
+                }
+                  .box_img{
+                    display: none;
+                    width: 150px;
+                    height: 200px;
+                    margin-left: 70px;
+                    border-radius: 120px;
+                    background-image: url(imgj.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin: 0px;
+          
+                }        
+                    
+            }    
+                  
+        }
+                
+    
+        .section_four{
+            .container{
+                display: block;
+                .container_1{
+                    margin: 20px 30% 20px 30%;
+                .head_text{
+                    display: flex;
+                    align-items: center;
+                    width: 200px;
+                    height: 40px;
+                    border: 1px solid #ccc;
+                    border-radius: 10px;
+                    
+                    i{
+                       padding: 0px 0px 0px 20px ;
+                    }
+                        h4{
+                           padding-left: 10px;
+                        }
+       
+                }
+              
+                
+                 }
+                    .container_2{
+                        margin-right: 70px;
+                        padding: 50px 0px 50px 0px;
+                        max-width: 100%;
+                        .head_text{
+                            display: flex;
+                            align-items: center;
+                            width: 350px;
+                            height: 40px;
+                            border: 1px solid #ccc;
+                            border-radius: 10px;
+                            margin-left: 50px;
+                            
+                            
+                            i{
+                               padding: 0px 0px 0px 20px ;
+                            }
+                                h4{
+                                   padding-left: 10px;
+                                   
+                                }
+                                    .icons{
+                                        margin-left: 200px;
+                                    }
+                           
+                            
+                                }
+    
+                        
+            }
+        }
+    }
+
+
+    .section_five{
+                   
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            background-color: bisque;
+            height: auto;
+            width: 100%;
+            gap: 70px;
+            flex-wrap: wrap;
+            .box1{
+                width: 140px;
+                height: 100px;
+            
+            }
+            .box2{
+                width: 140px;
+                height: 100px;
+            }
+            .box3{
+                width: 140px;
+                height: 100px;
+            }
+            .box4{
+                width: 140px;
+                height: 100px;
+                margin-top: 50px;
+                i{
+                    font-size: 30px;
+                    cursor: pointer;
+                }   
+                
+            }
+        }
+    }
+
+
+        }
+       
+
